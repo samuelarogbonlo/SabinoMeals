@@ -56,12 +56,12 @@
                     app:boxStrokeColor="@color/colorPrimary">
 
                     <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/edt_nom"
+                        android:id="@+id/edt_name"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         android:background="#00000000"
-                        android:hint="@string/nom_prenom"
+                        android:hint="@string/first_last"
                         android:inputType="text|textCapWords"
                         android:maxLines="1"
                         android:textColor="@android:color/darker_gray" />
@@ -80,13 +80,13 @@
                     android:layout_height="wrap_content"
                     >
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/date_naiss"
+                    android:id="@+id/birth_date"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:background="#00000000"
                     android:focusable="false"
-                    android:hint="@string/date_naisance"
+                    android:hint="@string/Date_of_Birth"
                     android:inputType="date"
                     android:maxLines="1"
                     android:textColor="@android:color/darker_gray" />
@@ -112,7 +112,7 @@
                     app:passwordToggleTint="@color/colorPrimary">
 
                     <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/edt_adresse"
+                        android:id="@+id/edt_address"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"

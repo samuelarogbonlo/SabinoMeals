@@ -7,6 +7,6 @@
     app:closeIconEnabled="false"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="Exemple">
+    android:text="Example">
 
 </com.google.android.material.chip.Chip>

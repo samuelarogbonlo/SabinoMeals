@@ -1,34 +1,71 @@
 {
   "project_info": {
-    "project_number": "973273801616",
-    "firebase_url": "https://urbanfood-66b1c.firebaseio.com",
-    "project_id": "urbanfood-66b1c",
-    "storage_bucket": "urbanfood-66b1c.appspot.com"
+    "project_number": "468722939687",
+    "firebase_url": "https://gbecksfoodapp.firebaseio.com",
+    "project_id": "gbecksfoodapp",
+    "storage_bucket": "gbecksfoodapp.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:973273801616:android:ba864e99cde2ef99d88915",
+        "mobilesdk_app_id": "1:468722939687:android:c867b47be4f657a91e5b02",
         "android_client_info": {
-          "package_name": "net.mbs.urbanfood"
+          "package_name": "com.sam.sabinomeals"
         }
       },
       "oauth_client": [
         {
-          "client_id": "973273801616-s602nhn3birjnq8lj5vm72ppv9niru2d.apps.googleusercontent.com",
+          "client_id": "468722939687-mn1vr17pv0to5ft8mco4uakaau3e61qb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sam.sabinomeals",
+            "certificate_hash": "3e18899f13237d851fe3cd19ba14d46a9753650b"
+          }
+        },
+        {
+          "client_id": "468722939687-9mepte0jfv99eedv2i27ka1s2hnh86t8.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyChhoNEzwHgMfctF5i25pnO0p9SB29qE3o"
+          "current_key": "AIzaSyCnPYfvB3YgdHaXdvt-8FrLyUHuK169cUw"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "973273801616-s602nhn3birjnq8lj5vm72ppv9niru2d.apps.googleusercontent.com",
+              "client_id": "468722939687-9mepte0jfv99eedv2i27ka1s2hnh86t8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468722939687:android:31e565ad603c56ce1e5b02",
+        "android_client_info": {
+          "package_name": "com.second.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468722939687-9mepte0jfv99eedv2i27ka1s2hnh86t8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnPYfvB3YgdHaXdvt-8FrLyUHuK169cUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "468722939687-9mepte0jfv99eedv2i27ka1s2hnh86t8.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

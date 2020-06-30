@@ -13,7 +13,7 @@
         android:layout_height="wrap_content">
         <EditText
             android:id="@+id/edt_address"
-            android:hint="Adresse de Livraison"
+            android:hint="Campus Delivery Address"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/layout_border"
@@ -27,7 +27,7 @@
 
     <TextView
         android:id="@+id/txt_address_detail"
-        android:text="Votre Adresse"
+        android:text="Personal Address"
         android:visibility="gone"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -40,7 +40,7 @@
         android:layout_height="wrap_content">
         <EditText
             android:id="@+id/edt_comment"
-            android:hint="Plus sur votre Adresse"
+            android:hint="Other Address Details"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
@@ -54,7 +54,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
-        android:text="Lieu Livraison"
+        android:text="Place of delivery"
         android:textSize="22sp"
         android:textStyle="bold"
         android:textColor="@color/dialog_header_color"
@@ -70,7 +70,7 @@
             android:checked="true"
             android:textSize="18sp"
             android:textStyle="italic"
-            android:text="Adresse du Domicile"
+            android:text="Home Address"
             android:textColor="@color/dialog_text_color"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
@@ -78,7 +78,7 @@
             android:id="@+id/rdi_other_address"
             android:textSize="18sp"
             android:textStyle="italic"
-            android:text="Autre Adresse"
+            android:text="Other address"
             android:textColor="@color/dialog_text_color"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
@@ -86,7 +86,7 @@
             android:id="@+id/rdi_ship_this_address"
             android:textSize="18sp"
             android:textStyle="italic"
-            android:text="Livré à cette adresse"
+            android:text="Delivered to this address"
             android:textColor="@color/dialog_text_color"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
@@ -94,7 +94,7 @@
     </RadioGroup>
 
     <TextView
-        android:text="Mode Payement"
+        android:text="Mode Of Payment"
         android:textSize="22sp"
         android:textStyle="bold"
         android:textColor="@color/dialog_header_color"
@@ -110,7 +110,7 @@
             android:checked="true"
             android:textSize="18sp"
             android:textStyle="italic"
-            android:text="Payement à la Livraison"
+            android:text="Cash on Delivery"
             android:textColor="@color/dialog_text_color"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
@@ -118,7 +118,7 @@
             android:id="@+id/rdi_braintree"
             android:textSize="18sp"
             android:textStyle="italic"
-            android:text="BrainTree"
+            android:text="BrainTree-PayPal"
             android:textColor="@color/dialog_text_color"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>

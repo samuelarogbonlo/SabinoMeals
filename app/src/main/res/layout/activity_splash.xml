@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:background="@drawable/welcome_back"
     android:gravity="center"
-    tools:context=".SplashActivity">
+    tools:context="com.sam.sabinomeals.SplashActivity">
 
     <ImageView
         android:id="@+id/logo_splash"
@@ -24,8 +24,8 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/kaushan_script"
         android:gravity="center"
-        android:text="Urban Food"
-        android:transitionName="welcom"
+        android:text="Sabino Meals"
+        android:transitionName="@string/welcome"
         android:textColor="@color/colorPrimary"
         android:textSize="45sp"
         android:textStyle="bold" />

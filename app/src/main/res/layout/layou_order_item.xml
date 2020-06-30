@@ -41,7 +41,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
-                android:text="Numero Commande :"
+                android:text="Order Number :"
                 android:textColor="@android:color/holo_red_dark"
                 android:textSize="12sp"
                 android:textStyle="italic" />
@@ -53,7 +53,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
-                android:text="Commentaire :"
+                android:text="Comment:"
                 android:textColor="@android:color/holo_red_dark"
                 android:textSize="12sp"
                 android:textStyle="italic" />

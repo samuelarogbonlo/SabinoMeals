@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginRight="10dp"
-        android:text="Suppléments"
+        android:text="Supplements"
         android:textColor="@color/colorPrimary"
         android:textStyle="bold"
         android:textSize="24sp"/>
@@ -20,7 +20,7 @@
         android:id="@+id/edt_search"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Rechercher"/>
+        android:hint="Search"/>
 
     <ScrollView
         android:layout_width="match_parent"

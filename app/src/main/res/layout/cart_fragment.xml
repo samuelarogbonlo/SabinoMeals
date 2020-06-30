@@ -16,14 +16,15 @@
 
     <TextView
         android:id="@+id/txt_empty_cart"
-        android:text="Panier vide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:textSize="35sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:text="Empty basket"
+        android:textSize="35sp" />
+
     <androidx.cardview.widget.CardView
         android:id="@+id/group_place_holder"
         android:layout_width="match_parent"
@@ -37,7 +38,7 @@
             android:layout_height="wrap_content">
             <TextView
                 android:id="@+id/txt_total_price"
-                android:text="Total: 0 CFA"
+                android:text="Total: 0 Naira"
                 android:layout_centerInParent="true"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
@@ -52,7 +53,7 @@
                 android:layout_height="wrap_content"
                 android:background="@color/colorPrimary"
                 android:fontFamily="@font/cousine_bold"
-                android:text="Passer votre commande"
+                android:text="Place your order"
                 android:textColor="@color/white" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>

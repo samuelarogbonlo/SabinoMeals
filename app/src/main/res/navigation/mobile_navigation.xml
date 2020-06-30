@@ -7,35 +7,35 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="net.mbs.urbanfood.ui.home.HomeFragment"
+        android:name="com.sam.sabinomeals.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home">
     </fragment>
 
     <fragment
         android:id="@+id/nav_category"
-        android:name="net.mbs.urbanfood.ui.category.CategoryFragment"
+        android:name="com.sam.sabinomeals.ui.category.CategoryFragment"
         android:label="@string/menu_category"
         tools:layout="@layout/fragment_category" />
 
     <fragment
         android:id="@+id/nav_food_list"
-        android:name="net.mbs.urbanfood.ui.food.FoodFragment"
+        android:name="com.sam.sabinomeals.ui.food.FoodFragment"
         android:label="@string/menu_food"
         tools:layout="@layout/fragment_food" />
     <fragment
         android:id="@+id/nav_food_detail"
-        android:name="net.mbs.urbanfood.ui.foodDetail.FoodDetailFragment"
+        android:name="com.sam.sabinomeals.ui.foodDetail.FoodDetailFragment"
         android:label="@string/menu_food_detail"
         tools:layout="@layout/fooddetail_fragment" />
     <fragment
         android:id="@+id/nav_cart"
-        android:name="net.mbs.urbanfood.ui.cart.CartFragment"
+        android:name="com.sam.sabinomeals.ui.cart.CartFragment"
         android:label="@string/menu_cart"
         tools:layout="@layout/cart_fragment" />
     <fragment
         android:id="@+id/nav_view_orders"
-        android:name="net.mbs.urbanfood.ui.view_order.ViewOrderFragment"
+        android:name="com.sam.sabinomeals.ui.view_order.ViewOrderFragment"
         android:label="@string/menu_tools"
         tools:layout="@layout/cart_fragment" />
 </navigation>

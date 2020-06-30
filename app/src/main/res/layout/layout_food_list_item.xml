@@ -33,7 +33,7 @@
                     android:id="@+id/txt_food_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Nom Plat"
+                    android:text="Meal Name"
                     android:textColor="@android:color/white"
                     android:textSize="20dp"/>
 
@@ -41,7 +41,7 @@
                     android:id="@+id/txt_food_price"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="0 CFA"
+                    android:text="0 Naira"
                     android:textColor="@android:color/white"
                     android:textSize="20dp"/>
 

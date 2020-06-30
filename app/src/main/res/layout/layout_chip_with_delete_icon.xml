@@ -4,7 +4,7 @@
     style="@style/Widget.MaterialComponents.Chip.Entry"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="Exemple"
+    android:text="Example"
     android:theme="@style/Theme.MaterialComponents.Light"
     app:checkedIconEnabled="false"
     app:closeIconTint="#F44336">
